@@ -44,7 +44,6 @@ p {
   display: flex;
   align-items: center;
 }
-
 .logo-blue {
   font-family: "Raleway";
   font-style: normal;
@@ -82,10 +81,19 @@ p {
 .menu-list > .item:not(:last-child) {
   margin-right: 10px;
 }
-.menu-list .link {
+.logo-link:hover {
+  text-decoration: underline;
+  color: var(--text-blue);
+}
+.nav-link {
   display: block;
   padding: 10px;
   text-decoration: none;
+}
+.menu-list a:hover,
+.menu-list a:focus {
+  color: var(--text-blue);
+  text-decoration: underline;
 }
 .menu-contacts-item:last-child {
   padding-left: 50px;
@@ -102,6 +110,7 @@ p {
 }
 .contacts-svg-container:hover a {
   color: var(--text-blue);
+  text-decoration: underline;
 }
 .contacts-svg-container:hover svg {
   fill: var(--text-blue);
@@ -126,11 +135,6 @@ p {
 }
 .menu-contacts {
   display: flex;
-}
-
-.menu-contacts a:hover,
-.menu-contacts a:focus {
-  /* color: var(--text-blue); */
 }
 
 /*======================================HERO section======================================*/
@@ -369,25 +373,59 @@ p {
   color: var(--text-header);
   margin-bottom: 50px;
 }
-.customers-svg-container {
+.customers-svg-link {
   display: flex;
+  align-items: center;
   justify-content: center;
-  width: 170px;
-  height: 90px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  fill: #afb1b8;
 }
 .customers-list {
   display: flex;
-  cursor: pointer;
+  justify-content: center;
 }
-.customers-svg-container:hover {
+.customers-item {
+  width: 170px;
+  height: 90px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+}
+.customers-item-container:hover li {
   border: 1px solid #2196f3;
   box-sizing: border-box;
   border-radius: 4px;
 }
-.customers-item:not(:last-child) {
+.customers-item-container:hover svg {
+  fill: var(--text-blue);
+}
+.customers-item-container:not(:last-child) {
   margin-right: 30px;
+}
+.customers-svg-yaco {
+  width: 44.27px;
+  height: 49.23px;
+}
+.customers-svg-tagline {
+  width: 40px;
+  height: 52px;
+}
+.customers-svg-company {
+  width: 41px;
+  height: 42.6px;
+}
+.customers-svg-foster {
+  width: 79.66px;
+  height: 42.02px;
+}
+.customers-svg-brand {
+  width: 59px;
+  height: 47px;
+}
+.customers-svg-companytagline {
+  width: 88.48px;
+  height: 45.44px;
 }
 /*======================================Футер======================================*/
 .footer-container {
@@ -401,6 +439,10 @@ p {
 .footer-logo-container {
   margin-bottom: 20px;
 }
+.footer-logo-link:hover {
+  text-decoration: underline;
+  color: var(--text-blue);
+}
 .footer address {
   font-family: "Roboto";
   font-style: normal;
@@ -409,6 +451,10 @@ p {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--text-white);
+}
+.footer-item:hover {
+  text-decoration: underline;
+  color: var(--text-blue);
 }
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
