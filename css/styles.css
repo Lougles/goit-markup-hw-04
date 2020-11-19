@@ -40,6 +40,9 @@ p {
   justify-content: space-between;
   height: 80px;
 }
+.portfolio-header {
+  border-bottom: 1px solid #ececec;
+}
 .navigation {
   display: flex;
   align-items: center;
