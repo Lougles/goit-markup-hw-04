@@ -133,7 +133,7 @@ h5,h6,body,ul,li,p {
 /*======================================HERO section======================================*/
 
 .hero {
-  background-image: url('../images/background/hero.jpg');
+  background-image: url('../../images/background/hero.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-color: #2F303A;
@@ -187,16 +187,16 @@ h5,h6,body,ul,li,p {
   border-radius: 4px;
 }
 .icon-sattelite::before {
-  background-image: url('../images/icons/qualities-1.svg');
+  background-image: url('../../images/icons/qualities-1.svg');
 }
 .icon-clock::before {
-  background-image: url('../images/icons/qualities-2.svg');
+  background-image: url('../../images/icons/qualities-2.svg');
 }
 .icon-computer::before {
-  background-image: url('../images/icons/qualities-3.svg');
+  background-image: url('../../images/icons/qualities-3.svg');
 }
 .icon-astronaut::before {
-  background-image: url('../images/icons/qualities-4.svg');
+  background-image: url('../../images/icons/qualities-4.svg');
 }
 .qualities-item:not(:last-child) {
   margin-right: 30px;
@@ -325,8 +325,6 @@ h5,h6,body,ul,li,p {
   width: 20px;
   height: 20px;
   fill: #AFB1B8;
-  margin-left: 12px;
-  margin-top: 12px;
 }
 .instagram-icon:hover {
   fill: white;
@@ -336,8 +334,6 @@ h5,h6,body,ul,li,p {
   width: 20px;
   height: 20px;
   fill: #AFB1B8;
-  margin-left: 12px;
-  margin-top: 12px;
 }
 .twitter-icon:hover {
   fill: white;
@@ -346,8 +342,6 @@ h5,h6,body,ul,li,p {
   width: 20px;
   height: 20px;
   fill: #AFB1B8;
-  margin-left: 12px;
-  margin-top: 12px;
 }
 .facebokk-icon:hover {
   fill: white;
@@ -356,8 +350,6 @@ h5,h6,body,ul,li,p {
   width: 20px;
   height: 20px;
   fill: #AFB1B8;
-  margin-left: 12px;
-  margin-top: 12px;
 }
 .linkedin-icon:hover {
   fill: white;
@@ -465,16 +457,16 @@ h5,h6,body,ul,li,p {
   cursor: pointer;
 }
 .footer-instagram {
-  background-image: url('../images/icons/footer-1.svg');
+  background-image: url('../../images/icons/footer-1.svg');
 }
 .footer-twitter {
-  background-image: url('../images/icons/footer-2.svg');
+  background-image: url('../../images/icons/footer-2.svg');
 }
 .footer-facebook {
-  background-image: url('../images/icons/footer-3.svg');
+  background-image: url('../../images/icons/footer-3.svg');
 }
 .footer-linked-in {
-  background-image: url('../images/icons/footer-4.svg');
+  background-image: url('../../images/icons/footer-4.svg');
 }
 
 /*======================================Портфолио======================================*/
