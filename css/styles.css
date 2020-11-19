@@ -74,12 +74,11 @@ p {
 
 /*======================================Навигация======================================*/
 .menu-list {
-  padding: 10px;
   margin-left: 83px;
   display: flex;
 }
-.menu-list > .item:not(:last-child) {
-  margin-right: 10px;
+.menu-list > .menu-item:not(:last-child) {
+  margin-right: 30px;
 }
 .logo-link:hover {
   text-decoration: underline;
@@ -95,8 +94,8 @@ p {
   color: var(--text-blue);
   text-decoration: underline;
 }
-.menu-contacts-item:last-child {
-  padding-left: 50px;
+.email-link {
+  margin-right: 50px;
 }
 .email-svg {
   width: 16px;
