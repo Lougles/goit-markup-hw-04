@@ -32,6 +32,8 @@ p {
 /*======================================Логотип======================================*/
 .container {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 .container-header {
@@ -142,10 +144,15 @@ p {
 /*======================================HERO section======================================*/
 
 .hero {
-  background-image: url("../images/background/hero.jpg");
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/background/hero.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #2f303a;
+  /* background-color: #2f303a; */
   padding-bottom: 200px;
   padding-top: 200px;
 }
@@ -267,7 +274,6 @@ p {
 }
 .our-team-list {
   display: flex;
-  align-items: center;
 }
 .our-team-item:not(:last-child) {
   margin-right: 30px;
@@ -298,7 +304,7 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-header);
-  margin: 30px 59px 10px 60px;
+  /* margin: 30px 59px 10px 60px; */
 }
 .our-team-text {
   font-family: "Roboto";
@@ -309,13 +315,16 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-p);
-  margin-bottom: 30px;
+  margin-bottom: 16px;
+  margin-top: 10px;
 }
 .our-team-social-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
-  margin-top: 16px;
+}
+.our-team-description-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .our-team-social-item {
   width: 44px;
@@ -562,6 +571,10 @@ p {
   width: 370px;
   border: 1px solid #eeeeee;
   background-color: var(--text-white);
+}
+.portfolio-img-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-img-item:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
